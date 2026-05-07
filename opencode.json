@@ -1,0 +1,28 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "agent": {
+        "general": {
+            "hidden": true
+        },
+        "explore": {
+            "hidden": true
+        }
+    },
+    "provider": {
+        "myprovider": {
+            "npm": "@ai-sdk/openai-compatible",
+            "name": "Ollama Local",
+            "options": {
+                "baseURL": "http://localhost:11434/v1"
+            },
+            "models": {
+                "qwen3.6:35b": {
+                    "name": "qwen3.6:35b"
+                },
+                "gemma4:26b": {
+                    "name": "gemma4:26b"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "drenpos-seo-agent",
+  "version": "1.0.0",
+  "description": "Agente autónomo de generación de contenido SEO para el blog de Drenpos",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "generate": "node index.mjs",
+    "start": "node index.mjs"
+  }
+}
